@@ -12,8 +12,8 @@
 #define Alarm_PIN 33
 #define FAN_PIN 26
 
-#define WIFI_SSID     "iot"
-#define WIFI_PASSWORD "1qazxsw2"
+#define WIFI_SSID     "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
 
 // --- MQTT ---
 const char* mqttServer = "broker.hivemq.com";
@@ -25,8 +25,8 @@ const char* blinkTopic = "LED/BlinkNodeRed";
 const char* tempTargetTopic = "Temp/target";
 
 // --- LINE Notify ---
-const char* LINE_TOKEN = "Bearer JB+UmeCeIqrHVYo2wX0+sQIfYERdvItpIjwoqnngzN+6omULnQdkJnQ6x6nvLoXTOVbnsDf0NYnHl6i32YjoCTlH6w1lqa18azc1uQUpyUR3mwi2DxmTdGsitIh3pGp+rKsqxvIwTY1I91rKZn+AsAdB04t89/1O/w1cDnyilFU=";
-const String USER_ID = "U23e3ebafa5b2669455fa1a5bd8709d7e";
+const char* LINE_TOKEN = "YOUR_TOKEN";
+const String USER_ID = "YOUR_ID";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
